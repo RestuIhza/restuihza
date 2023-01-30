@@ -1,0 +1,230 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: 'Montserrat', sans-serif;
+    color:rgba(107, 171, 184, 0.9); ;
+}
+
+   .container-navbar{
+    display: flex;
+    background-color: rgba(34, 49, 52, 0.9);
+    color: white;
+    justify-content: space-between;
+    padding: 20px;
+    
+   }
+   
+   .bi-list{
+    display: none;
+    color: white;
+   }
+.logo{
+    font-weight: 700;
+    font-size:large;
+    letter-spacing: 5px;
+    color: white;
+}
+.navbar-list{
+    list-style: none;
+    display: flex;
+    /* width: 30%; */
+    justify-content: space-between;
+}
+.navbar-list li{
+    padding-right: 15px;
+}
+.copy-container{
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+}
+.copy-container h1{
+    margin: auto;   
+    font-weight: 900;
+    font-size: 50px;
+    letter-spacing: 5px;
+    padding-bottom: 5px;
+    color:rgba(34, 49, 52, 0.9); ;
+}
+.copy-container span{
+    color: red;
+}
+.copy-container p{
+    margin: auto;
+    font-weight: 200;
+    font-size: 30px;
+    padding-bottom: 5px;
+    color: rgba(34, 49, 52, 0.9);   
+}
+.copy-container img{
+    width: 200px;
+    margin: auto;
+    
+}
+.about-container{
+   background-color:#e2eef9;
+   display: flex;
+   flex-direction: column;  
+   padding: 20px;
+}
+.about-container h2{
+    margin: auto;
+    
+}
+.about-container p{
+margin: auto;
+padding: 20px 100px;
+text-align: center;
+}
+.project-container{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+.project-container h2{
+    margin: auto;
+}
+.project-list{
+    display: flex;
+    justify-content: space-evenly;
+}
+.project{
+    display: flex;
+    flex-direction: column;
+}
+.project img{
+    width: 200px;
+}
+.project h3{
+    margin: auto;
+}
+.form-container{
+    padding: 30px;
+    background-color:#e2eef9;
+}
+
+.contact-form{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    
+}
+.contact-form h3{
+    margin: auto;
+    padding-bottom: 20px;
+}
+.contact-form input,textarea{
+     margin: 5px 150px; 
+     padding: 20px;
+    border-style: none;
+    border-radius: 5px;
+    resize: none;
+}
+.button{
+    display: flex;
+    margin: auto;
+    padding: 20px;
+}
+.button input{
+    background-color: #f5f540;
+    margin: auto;
+    border-style: none;
+    border-radius: 5px;
+    padding: 10px 40px;
+}
+.footer-container{
+ display: flex;
+ justify-content: space-between;
+ background-color:rgba(34, 49, 52, 0.9) ;
+ padding: 20px;
+}
+.footer-list{
+    list-style: none;
+    color: white;
+    display: flex;
+    flex-direction: column;
+}    
+.list{
+    padding: 5px;
+}
+/* responsive */
+@media only screen and (max-width:600px){
+    .container-navbar{   
+        padding: 15px;
+    }
+    .navbar-list{
+        display: none;
+    }
+    .bi-list{
+        display: block;
+       color: white;
+        
+    }
+    .logo{
+        font-size: small;
+        letter-spacing: 3px ;
+        
+    }
+    .copy-container h1{
+    font-size: 25px;
+    letter-spacing: 2px;  
+         
+    }
+    .copy-container p{
+        font-size: 15px;
+   }
+    .project-list{
+        flex-direction: column;
+    }
+    .project {
+        justify-content: center;
+        align-items:center ;
+        margin: 0;
+    }
+    .project-container h2{
+        font-size: large;
+    }  
+    .project img{
+        width: 120px;
+        padding: 10px;
+    }
+    .project h3{
+        font-size: smaller;
+    }
+    .about-container h2{
+        margin: auto;
+        padding: 20;
+        font-size: large;
+    }
+    .about-container p{
+    margin: auto;
+    padding: 20px 10px;
+    font-size: small;
+    text-align: center;
+    }
+    .contact-form input,textarea{
+        margin: 5px 0px; 
+        padding: 20px;
+       border-style: none;
+       border-radius: 5px;
+       resize: none;
+   }
+   .contact-form h3{
+   font-size:medium;
+    }
+    .footer-container{
+        padding: 10px;
+       }
+       .footer-list{
+           list-style: none;
+           color: white;
+           display: flex;
+           flex-direction: column;
+       }    
+       .list{
+           padding: 5px;
+           font-size: 10px;
+       }
+    }
