@@ -68,10 +68,11 @@ body {
    display: flex;
    flex-direction: column;  
    padding: 20px;
+   color: rgba(34, 49, 52, 0.9);
 }
 .about-container h2{
     margin: auto;
-    color:rgba(34, 49, 52, 0.9);
+    
 }
 .about-container p{
 margin: auto;
@@ -82,16 +83,16 @@ text-align: center;
     display: flex;
     flex-direction: column;
     padding: 20px;
+    color: rgba(34, 49, 52, 0.9);
 }
 .project-container h2{
     margin: auto;
-    color:rgba(34, 49, 52, 0.9);
 }
 .project-list{
     display: flex;
     justify-content: space-evenly;
 }
-.project
+.project{
     display: flex;
     flex-direction: column;
 }
@@ -104,6 +105,7 @@ text-align: center;
 .form-container{
     padding: 30px;
     background-color:#e2eef9;
+    color: rgba(34, 49, 52, 0.9);
 }
 
 .contact-form{
@@ -122,7 +124,7 @@ text-align: center;
     border-style: none;
     border-radius: 5px;
     resize: none;
-
+}
 .button{
     display: flex;
     margin: auto;
@@ -140,6 +142,7 @@ text-align: center;
  justify-content: space-between;
  background-color:rgba(34, 49, 52, 0.9) ;
  padding: 20px;
+ color: rgba(34, 49, 52, 0.9);
 }
 .footer-list{
     list-style: none;
@@ -228,4 +231,4 @@ text-align: center;
            padding: 5px;
            font-size: 10px;
        }
-    }
+   
