@@ -71,7 +71,7 @@ body {
 }
 .about-container h2{
     margin: auto;
-    
+    color:rgba(34, 49, 52, 0.9);
 }
 .about-container p{
 margin: auto;
@@ -85,12 +85,13 @@ text-align: center;
 }
 .project-container h2{
     margin: auto;
+    color:rgba(34, 49, 52, 0.9);
 }
 .project-list{
     display: flex;
     justify-content: space-evenly;
 }
-.project{
+.project
     display: flex;
     flex-direction: column;
 }
@@ -121,7 +122,7 @@ text-align: center;
     border-style: none;
     border-radius: 5px;
     resize: none;
-}
+
 .button{
     display: flex;
     margin: auto;
