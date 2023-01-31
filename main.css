@@ -78,6 +78,7 @@ body {
 margin: auto;
 padding: 20px 100px;
 text-align: center;
+    color: rgba(34, 49, 52, 0.9);
 }
 .project-container{
     display: flex;
